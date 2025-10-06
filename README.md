@@ -1,4 +1,3 @@
-```markdown
 # Nepal Real-Time Weather Monitoring & Early Warning System
 
 ![Nepal Weather System Banner](https://via.placeholder.com/800x200/007BFF/FFFFFF?text=Nepal+Weather+Monitoring+System)  
@@ -44,7 +43,7 @@ The system is modular: Run the data feeder separately for production, or use the
 
 1. **Clone/Setup Project**:
    ```bash
-   git clone <your-repo-url> nepal-weather-system
+   git clone https://github.com/sujanach-rya/real_time_weather_detection nepal-weather-system
    cd nepal-weather-system
    ```
 
@@ -157,6 +156,7 @@ python nepal_weather_system.py
 | No live data | Check API key/internet; fallback activates. |
 | Dashboard not updating | Threads staggered—wait 10s; check `running=True`. |
 | High CPU | Increase sleep intervals in threads. |
+| **Bold text not rendering** in README.md | Ensure no leading spaces before `**text**` (e.g., "**Bold**" not " **Bold**"). Check raw file view on GitHub (click "Raw" button). Save as UTF-8 without BOM. If in lists/tables, verify indentation (use 2 spaces for sub-items). Test with simple `**test**` in a new .md file. |
 
 - Logs: Watch for "❌" errors (e.g., "API error").
 - Debug: Add `print(processed_data)` in threads.
@@ -173,7 +173,7 @@ Focus: More APIs (e.g., OpenWeatherMap), cloud deployment (AWS/GCP), mobile aler
 
 ## License
 
-MIT License – Feel free to use/modify
+MIT License – Feel free to use/modify. © 2025 [Your Name/Org].
 
 ## Acknowledgments
 
@@ -181,4 +181,17 @@ MIT License – Feel free to use/modify
 - Nepal Department of Hydrology & Meteorology (DHM) for inspiration.
 - Open-source: Kafka, Dask, Redis, Pandas.
 
+---
 
+*Last Updated: October 06, 2025*  
+Questions? Open an issue or email [your-contact]. 🚀
+
+### Quick Fix for Bold Rendering
+I've double-checked the Markdown syntax—**bold** should render fine on GitHub as long as:
+- There's no space immediately after the opening `**` or before the closing `**` (e.g., `**bold**` not `* *bold* *`).
+- The file is named `README.md` (case-sensitive) and committed to the repo root.
+- No HTML conflicts or escaped characters.
+
+To test: Create a minimal `test.md` with just `**Hello bold world**` and view it on GitHub. If it fails, it might be a repo/cache issue—try editing/committing again or clearing browser cache.
+
+Copy the full content above directly into your `README.md` file (use a plain text editor like VS Code to avoid hidden characters). If issues persist, share a screenshot of the raw file!
