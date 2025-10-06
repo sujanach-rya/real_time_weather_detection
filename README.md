@@ -1,6 +1,4 @@
-# Nepal Real-Time Weather Monitoring & Early Warning System
-
-![Nepal Weather System Banner](https://via.placeholder.com/800x200/007BFF/FFFFFF?text=Nepal+Weather+Monitoring+System)  
+# Nepal Real-Time Weather Monitoring & Early Warning System  
 
 
 ## Overview
