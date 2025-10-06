@@ -173,7 +173,7 @@ Focus: More APIs (e.g., OpenWeatherMap), cloud deployment (AWS/GCP), mobile aler
 
 ## License
 
-MIT License – Feel free to use/modify. © 2025 [Your Name/Org].
+MIT License – Feel free to use/modify
 
 ## Acknowledgments
 
@@ -181,15 +181,4 @@ MIT License – Feel free to use/modify. © 2025 [Your Name/Org].
 - Nepal Department of Hydrology & Meteorology (DHM) for inspiration.
 - Open-source: Kafka, Dask, Redis, Pandas.
 
----
 
-*Last Updated: October 06, 2025*  
-Questions? Open an issue or email [your-contact]. 🚀
-```
-
-To download this as a `README.md` file:
-1. Copy the entire content above (from `# Nepal Real-Time...` to the end).
-2. Paste it into a new file named `README.md` using a text editor (e.g., VS Code, Notepad).
-3. Save it in your project root directory.
-
-If you're in a GitHub repo, create the file directly on GitHub and paste the content. This will render it nicely on the repo page!
