@@ -11,5 +11,7 @@ sleep 30
 docker-compose exec kafka kafka-topics --create --topic nepal-weather --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 
 # 5. If test passes, run the data feeder
-python working_data_feeder.py
+python live_data_feeder.py
+
+#6. Run all.py
 
