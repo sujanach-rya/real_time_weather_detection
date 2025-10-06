@@ -171,7 +171,7 @@ Focus: More APIs (e.g., OpenWeatherMap), cloud deployment (AWS/GCP), mobile aler
 
 ## License
 
-MIT License – Feel free to use/modify. © 2025 [Your Name/Org].
+MIT License – Feel free to use/modify. © 2025.
 
 ## Acknowledgments
 
@@ -182,14 +182,6 @@ MIT License – Feel free to use/modify. © 2025 [Your Name/Org].
 ---
 
 *Last Updated: October 06, 2025*  
-Questions? Open an issue or email [your-contact]. 🚀
 
-### Quick Fix for Bold Rendering
-I've double-checked the Markdown syntax—**bold** should render fine on GitHub as long as:
-- There's no space immediately after the opening `**` or before the closing `**` (e.g., `**bold**` not `* *bold* *`).
-- The file is named `README.md` (case-sensitive) and committed to the repo root.
-- No HTML conflicts or escaped characters.
 
-To test: Create a minimal `test.md` with just `**Hello bold world**` and view it on GitHub. If it fails, it might be a repo/cache issue—try editing/committing again or clearing browser cache.
 
-Copy the full content above directly into your `README.md` file (use a plain text editor like VS Code to avoid hidden characters). If issues persist, share a screenshot of the raw file!
