@@ -83,7 +83,7 @@ The system is modular: Run the data feeder separately for production, or use the
 This streams live/simulated data to Kafka. Run in one terminal.
 
 ```bash
-python new_live_data_feeder.py
+python live_data_feeder.py
 ```
 
 - Output: "🚀 Starting... 📡 Sent real data for Kathmandu" every 30s.
