@@ -1,9 +1,9 @@
-# Nepal Real-Time Weather Monitoring & Early Warning System  
+# Nepal Real-Time Weather Monitoring System  
 
 
 ## Overview
 
-This project implements a **real-time weather monitoring and early warning system** tailored for Nepal, focusing on flood and landslide risks during monsoon seasons. It uses live weather data from external APIs, streams it via Apache Kafka, processes it with distributed computing (Dask), caches alerts in Redis, and displays a live console dashboard for quick insights.
+This project implements a **real-time weather monitoring system** tailored for Nepal, focusing on flood and landslide risks during monsoon seasons. It uses live weather data from external APIs, streams it via Apache Kafka, processes it with distributed computing (Dask), caches alerts in Redis, and displays a live console dashboard for quick insights.
 
 ### Key Features
 - **Live Data Ingestion**: Fetches real-time weather from [WeatherAPI.com](https://www.weatherapi.com/) for major Nepali stations (e.g., Kathmandu, Pokhara).
